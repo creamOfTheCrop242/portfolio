@@ -122,21 +122,6 @@
     "featured": true
   },
   {
-    "id": "perfect-party",
-    "name": "Perfect Party",
-    "category": "apps",
-    "label": "Planning & events",
-    "description": "A web app designed to help people plan the perfect party, built with an Angular frontend and a NestJS backend.",
-    "tags": [
-      "Angular",
-      "NestJS",
-      "Postgres",
-      "PWA"
-    ],
-    "url": "https://unique-elf-0ae711.netlify.app/#/login",
-    "art": "party"
-  },
-  {
     "id": "zeta-computing",
     "name": "Zeta Computing",
     "category": "experiments",
