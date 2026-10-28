@@ -21,7 +21,7 @@ Open http://127.0.0.1:8000. Serve `dist/`, not the source directory: the build i
 - `portfolio.css`: responsive theme and visual treatments.
 - `portfolio.js`: combined category/search filtering, empty state, and menu behavior.
 - `assets/projects/`: existing project screenshots in 640px and 960px WebP sizes, copied from Web Studio. Projects without screenshots use typographic covers, not simulated screenshots.
-- `dev_resume.pdf`: the owner-provided `Donald_Hudson_Resume_Updated.pdf`, copied without modifying its contents.
+- `dev_resume.pdf`: the owner-provided `don_dev_resume.pdf`, copied without modifying its contents.
 
 The contact form retains the existing Formspree endpoint and uses native submission. Delivery requires that endpoint to remain active; no test message was sent. Project destinations come from the existing portfolio, Web Studio source, and owner-provided links. The So About Us description was checked against its site metadata, and the Mercy Cares domain was verified; availability of every other destination has not been checked. Zeta Computing is presented as a concept rather than making claims about a real technology company.
 
