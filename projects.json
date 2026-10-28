@@ -1,14 +1,198 @@
 [
-  {"id":"chess-sagas","name":"Chess Sagas","category":"apps","label":"Chess & storytelling","description":"Turning chess games into immersive fantasy sagas. A different way to experience the story behind every move.","tags":["Chess","Storytelling","Web app"],"url":"https://chesssagas.com/","image":"chess-sagas","featured":true},
-  {"id":"guide-log","name":"The Guide Log","category":"apps","label":"Productivity & everyday life","description":"A life log that brings journals, tasks, habits, and goals together, with optional AI summaries and voice capture.","tags":["Angular","NestJS","Postgres","OpenAI"],"url":"https://www.theguidelog.com/","image":"guide-log","featured":true},
-  {"id":"mercy-cares","name":"Mercy Cares Counseling","category":"clients","label":"Client website · Maryland","description":"A welcoming home for a counseling practice, introducing its services, care team, and the next step toward an appointment.","tags":["HTML","CSS","JavaScript"],"url":"https://mercycarescounselingservices.com/","image":"mercy","featured":true},
-  {"id":"emmanuel-ame","name":"Emmanuel AME Church","category":"clients","label":"Client website · Delaware","description":"Worship information, ministries, and community events in one place, with a clear welcome for first-time visitors.","tags":["Church website","Community","Responsive design"],"url":"https://eamechurchhartly.com/","image":"emmanuel-ame","featured":true},
-  {"id":"web-studio","name":"COTC Web Studio","category":"cotc","label":"The COTC family","description":"My web design studio, helping small businesses share what they do through custom websites, SEO setup, and ongoing website care.","tags":["Angular","Web design","SEO"],"url":"https://cotcwebstudio.com/","art":"studio","featured":true},
-  {"id":"cotc-media","name":"COTC Media","category":"cotc","label":"The COTC family","description":"The media and community side of Cream of the Crop, bringing together podcasts, fitness, and community content.","tags":["Angular","NestJS","Community"],"url":"https://creamofthecrop.tech/dashboard","art":"media","featured":true},
-  {"id":"fast-eats","name":"Fast Eats","category":"apps","label":"Food & discovery","description":"A web app that uses Google Maps to help people find nearby restaurants when it’s time to decide what to eat.","tags":["Angular","NestJS","Google Maps API","PWA"],"url":"https://comforting-sawine-26aeee.netlify.app/","image":"fast-eats"},
-  {"id":"perfect-party","name":"Perfect Party","category":"apps","label":"Planning & events","description":"A web app designed to help people plan the perfect party, built with an Angular frontend and a NestJS backend.","tags":["Angular","NestJS","Postgres","PWA"],"url":"https://unique-elf-0ae711.netlify.app/#/login","art":"party"},
-  {"id":"zeta-computing","name":"Zeta Computing","category":"experiments","label":"Concept website","description":"A technology company website concept exploring quantum computing and artificial intelligence through a business landing page.","tags":["HTML","CSS","JavaScript"],"url":"https://incandescent-naiad-bae5f6.netlify.app/","art":"zeta"},
-  {"id":"rock-paper-scissors","name":"Rock-Paper-Scissors","category":"experiments","label":"JavaScript game","description":"A classic browser game built to practice JavaScript, game logic, and interactive interfaces.","tags":["JavaScript","CSS","Bootstrap"],"url":"https://donmuscles97.github.io/rock-paper-scissors/","github":"https://github.com/DonMuscles97/rock-paper-scissors","art":"game"},
-  {"id":"task-list","name":"Task List","category":"experiments","label":"Browser-based productivity","description":"A lightweight task manager built with Materialize CSS, storing tasks locally in the browser.","tags":["JavaScript","Materialize CSS","Local storage"],"url":"https://donmuscles97.github.io/TaskList/","github":"https://github.com/DonMuscles97/TaskList","art":"tasks"},
-  {"id":"spa-website","name":"SPA Website","category":"experiments","label":"Vue website concept","description":"An early single-page business website built with Vue, exploring component-based development and responsive layouts.","tags":["Vue.js","JavaScript","Bootstrap"],"url":"https://donmuscles97.github.io/#/","github":"https://github.com/DonMuscles97/DonMuscles97.github.io","art":"vue"}
+  {
+    "id": "guide-log",
+    "name": "The Guide Log",
+    "category": "apps",
+    "label": "Productivity & everyday life",
+    "description": "A life log that brings journals, tasks, habits, and goals together, with optional AI summaries and voice capture.",
+    "tags": [
+      "Angular",
+      "NestJS",
+      "Postgres",
+      "OpenAI"
+    ],
+    "url": "https://theguidelog.com/",
+    "image": "guide-log",
+    "featured": true
+  },
+  {
+    "id": "chess-sagas",
+    "name": "Chess Sagas",
+    "category": "apps",
+    "label": "Chess & storytelling",
+    "description": "Turning chess games into immersive fantasy sagas. A different way to experience the story behind every move.",
+    "tags": [
+      "Chess",
+      "Storytelling",
+      "Web app"
+    ],
+    "url": "https://chesssagas.com/",
+    "image": "chess-sagas",
+    "featured": true
+  },
+  {
+    "id": "cotc-media",
+    "name": "COTC Media",
+    "category": "cotc",
+    "label": "The COTC family",
+    "description": "The media and community side of Cream of the Crop, bringing together podcasts, fitness, and community content.",
+    "tags": [
+      "Angular",
+      "NestJS",
+      "Community"
+    ],
+    "url": "https://creamofthecrop.tech/",
+    "art": "media",
+    "featured": true
+  },
+  {
+    "id": "mercy-cares",
+    "name": "Mercy Cares Counseling",
+    "category": "clients",
+    "label": "Client website · Maryland",
+    "description": "A welcoming home for a counseling practice, introducing its services, care team, and the next step toward an appointment.",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "url": "https://mercycarescounselingservices.com/",
+    "image": "mercy",
+    "featured": true
+  },
+  {
+    "id": "fast-eats",
+    "name": "Fast Eats",
+    "category": "apps",
+    "label": "Food & discovery",
+    "description": "A web app that uses Google Maps to help people find nearby restaurants when it’s time to decide what to eat.",
+    "tags": [
+      "Angular",
+      "NestJS",
+      "Google Maps API",
+      "PWA"
+    ],
+    "url": "https://comforting-sawine-26aeee.netlify.app/",
+    "image": "fast-eats",
+    "featured": true
+  },
+  {
+    "id": "so-about-us",
+    "name": "So About Us",
+    "category": "apps",
+    "label": "Relationships & reflection",
+    "description": "A private relationship journal for noticing patterns and taking thoughtful action. A space to reflect on the connections that matter.",
+    "tags": [
+      "Journaling",
+      "Relationships",
+      "Web app"
+    ],
+    "url": "https://so-about-us.netlify.app/",
+    "art": "relationships",
+    "featured": true
+  },
+  {
+    "id": "emmanuel-ame",
+    "name": "Emmanuel AME Church",
+    "category": "clients",
+    "label": "Client website · Delaware",
+    "description": "Worship information, ministries, and community events in one place, with a clear welcome for first-time visitors.",
+    "tags": [
+      "Church website",
+      "Community",
+      "Responsive design"
+    ],
+    "url": "https://eamechurchhartly.com/",
+    "image": "emmanuel-ame",
+    "featured": true
+  },
+  {
+    "id": "web-studio",
+    "name": "COTC Web Studio",
+    "category": "cotc",
+    "label": "The COTC family",
+    "description": "My web design studio, helping small businesses share what they do through custom websites, SEO setup, and ongoing website care.",
+    "tags": [
+      "Angular",
+      "Web design",
+      "SEO"
+    ],
+    "url": "https://cotcwebstudio.com/",
+    "art": "studio",
+    "featured": true
+  },
+  {
+    "id": "perfect-party",
+    "name": "Perfect Party",
+    "category": "apps",
+    "label": "Planning & events",
+    "description": "A web app designed to help people plan the perfect party, built with an Angular frontend and a NestJS backend.",
+    "tags": [
+      "Angular",
+      "NestJS",
+      "Postgres",
+      "PWA"
+    ],
+    "url": "https://unique-elf-0ae711.netlify.app/#/login",
+    "art": "party"
+  },
+  {
+    "id": "zeta-computing",
+    "name": "Zeta Computing",
+    "category": "experiments",
+    "label": "Concept website",
+    "description": "A technology company website concept exploring quantum computing and artificial intelligence through a business landing page.",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "url": "https://incandescent-naiad-bae5f6.netlify.app/",
+    "art": "zeta"
+  },
+  {
+    "id": "rock-paper-scissors",
+    "name": "Rock-Paper-Scissors",
+    "category": "experiments",
+    "label": "JavaScript game",
+    "description": "A classic browser game built to practice JavaScript, game logic, and interactive interfaces.",
+    "tags": [
+      "JavaScript",
+      "CSS",
+      "Bootstrap"
+    ],
+    "url": "https://donmuscles97.github.io/rock-paper-scissors/",
+    "github": "https://github.com/DonMuscles97/rock-paper-scissors",
+    "art": "game"
+  },
+  {
+    "id": "task-list",
+    "name": "Task List",
+    "category": "experiments",
+    "label": "Browser-based productivity",
+    "description": "A lightweight task manager built with Materialize CSS, storing tasks locally in the browser.",
+    "tags": [
+      "JavaScript",
+      "Materialize CSS",
+      "Local storage"
+    ],
+    "url": "https://donmuscles97.github.io/TaskList/",
+    "github": "https://github.com/DonMuscles97/TaskList",
+    "art": "tasks"
+  },
+  {
+    "id": "spa-website",
+    "name": "SPA Website",
+    "category": "experiments",
+    "label": "Vue website concept",
+    "description": "An early single-page business website built with Vue, exploring component-based development and responsive layouts.",
+    "tags": [
+      "Vue.js",
+      "JavaScript",
+      "Bootstrap"
+    ],
+    "url": "https://donmuscles97.github.io/#/",
+    "github": "https://github.com/DonMuscles97/DonMuscles97.github.io",
+    "art": "vue"
+  }
 ]
