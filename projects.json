@@ -9,7 +9,7 @@
       "Angular",
       "NestJS",
       "Postgres",
-      "OpenAI"
+      "OpenAI API"
     ],
     "url": "https://theguidelog.com/",
     "image": "guide-log",
@@ -24,7 +24,8 @@
     "tags": [
       "Chess",
       "Storytelling",
-      "Web app"
+      "Web app",
+      "OpenAI API"
     ],
     "url": "https://chesssagas.com/",
     "image": "chess-sagas",
@@ -85,7 +86,8 @@
     "tags": [
       "Journaling",
       "Relationships",
-      "Web app"
+      "Web app",
+      "OpenAI API"
     ],
     "url": "https://so-about-us.netlify.app/",
     "art": "relationships",
