@@ -32,21 +32,6 @@
     "featured": true
   },
   {
-    "id": "cotc-media",
-    "name": "COTC Media",
-    "category": "cotc",
-    "label": "The COTC family",
-    "description": "The media and community side of Cream of the Crop, bringing together podcasts, fitness, and community content.",
-    "tags": [
-      "Angular",
-      "NestJS",
-      "Community"
-    ],
-    "url": "https://creamofthecrop.tech/",
-    "art": "media",
-    "featured": true
-  },
-  {
     "id": "mercy-cares",
     "name": "Mercy Cares Counseling",
     "category": "clients",
